@@ -1,16 +1,17 @@
 'use strict'
 
-function BinarioADecimal(num) {
+function BinarioADecimal(num) { ///
   // tu codigo aca .split("").reverse();
 
 // return (num).toString(2);
+return (num).toString(2);
 
 }
 
 
 function DecimalABinario(num) {
   // tu codigo aca usar While
-/*var num = 23;
+ var num = 23;
   var modulo = []
   while(num !==0);{
    
@@ -18,7 +19,6 @@ function DecimalABinario(num) {
   num = Math.floor(num/2);
   }
    return modulo;
-  */
 
 
    
