@@ -21,6 +21,7 @@ function DecimalABinario(num) {
  }
  return binario;
 
+ // num.toString(2);
 }
   
 
