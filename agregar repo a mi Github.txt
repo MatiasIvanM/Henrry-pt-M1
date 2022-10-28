@@ -1,0 +1,15 @@
+PASOS PARA AGREGAR .ZIP COMO REPO EN GITHUB:
+
+Crear un nuevo repo PRIVADO en Github
+
+En Visual Studio Code y dentro de la carpeta que tiene el repositorio, hacemos
+
+git init
+git status
+git add .
+git commit -m "mensaje"
+git remote add origin https://github.com/usuario_github/nombre_del_repo.git
+git branch -M main
+git push -u origin main
+
+
