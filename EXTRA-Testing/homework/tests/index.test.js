@@ -30,7 +30,7 @@ describe('checkSeatStatus', function () {
       });
 
 
-  it('should return true if the given seat defined by row and column is booked', function () {
+  it('should return true if thgite given seat defined by row and column is booked', function () {
           expect(checkSeatStatus('A', 1)).toBe(true);
       });
   
