@@ -6,7 +6,10 @@ function quickSort(array) {
   // el array recibido como parámetro
   // Devolver el array ordenado resultante
   // Tu código:
-
+//var left = []
+//var rigth = []
+//var pivote = []
+/// lefr - pivote - rigth 
 }
 
 function mergeSort(array) {
