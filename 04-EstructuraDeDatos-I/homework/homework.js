@@ -22,6 +22,8 @@ function nFactorial(n) {
 }
 
 function nFibonacci(n) {
+  if( n === 0 || n=== 1) return n;
+  return nFibonacci(n-1)+ nFibonacci(n-2);
   
 }
 
@@ -35,9 +37,38 @@ Pueden utilizar class o función constructora.
 */
 
 function Queue() {
+  this.elements =[];
 
 }
 
+
+Queue.prototype.enqueue = function (elem){
+  this.emements.push(elem)
+}
+
+Queue.prototype.dequeue = function (){
+  this.elements.shift()
+}
+
+Queue.prototype.size = function (){
+  this.elements.length;
+}
+
+/*
+class Queue{
+  constructor(){
+    this.elements = []
+  }
+  enqueue(elem){
+    this.emements.push(elem)
+  }
+  dequeue(arr){
+    this.elements.shift()
+  }
+  size(){
+    this.elements.length;
+  }
+}*/
 // No modifiquen nada debajo de esta linea
 // --------------------------------
 
